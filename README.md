@@ -1,11 +1,13 @@
 # My Portfolio Website (React + Typescript + TailwindCSS + Vite)
 
-## Tomorrow TODO
-- [ ] Add interfaces in types folder
+## In progress
+
+- [x] Add interfaces in types folder
 - [ ] Fill out info in data folder
 - [ ] Gather static assets (project screenshots, resume pdf)
 
 ## TODO
+
 - [ ] Layout
   - [ ] Header (navigation menu)
   - [ ] MainLayout (wrapper handling header, footer, and theme)
