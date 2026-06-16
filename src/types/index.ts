@@ -1,34 +1,36 @@
+import type { IconType } from "react-icons";
+
 export interface Skill {
-    id: string;
-    name: string;
-    type: string;
-    icon: string;
+  id: string;
+  name: string;
+  type: string;
+  icon: IconType;
 }
 
 export interface Experience {
-    id: string;
-    role: string;
-    company: string;
-    location: string;
-    duration: string;
-    description: string[];
+  id: string;
+  role: string;
+  company: string;
+  location: string;
+  duration: string;
+  description: string[];
 }
 
 export interface Project {
-    id: string;
-    title: string;
-    description: string;
-    techStack: string[];
-    githubUrl?: string;
-    liveUrl?: string;
-    imageUrl?: string;
+  id: string;
+  title: string;
+  description: string;
+  techStack: string[];
+  githubUrl?: string;
+  liveUrl?: string;
+  imageUrl?: string;
 }
 
 export interface Education {
-    id: string;
-    degree: string;
-    institution: string;
-    location: string;
-    duration: string;
-    details?: string[];
+  id: string;
+  degree: string;
+  institution: string;
+  location: string;
+  duration: string;
+  details?: string[];
 }
