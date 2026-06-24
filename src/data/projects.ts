@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Portfolio Website",
     description:
       "Built this portfolio website to showcase my skills and experience.",
-    techStack: ["ReactJS, TailwindCSS, Vite"],
+    techStack: ["ReactJS", "TailwindCSS", "Vite"],
     githubUrl: "TBA",
     liveUrl: "TBA",
     imageUrl: "TBA",

@@ -3,6 +3,7 @@ import { FaCss3, FaJava } from "react-icons/fa6";
 import {
   SiDjango,
   SiGit,
+  SiGithub,
   SiHtml5,
   SiJavascript,
   SiLinux,
@@ -72,31 +73,31 @@ export const skills: Skill[] = [
   {
     id: "skill-10",
     name: "Svelte",
-    type: "Framework",
+    type: "framework",
     icon: SiSvelte,
   },
   {
     id: "skill-11",
     name: "PyTorch",
-    type: "Framework",
+    type: "framework",
     icon: SiPytorch,
   },
   {
     id: "skill-12",
     name: "Git",
-    type: "Tool",
+    type: "tool",
     icon: SiGit,
   },
   {
     id: "skill-13",
     name: "GitHub",
-    type: "Platform",
-    icon: SiGit,
+    type: "platform",
+    icon: SiGithub,
   },
   {
     id: "skill-14",
     name: "Linux",
-    type: "Platform",
+    type: "platform",
     icon: SiLinux,
   },
 ];
