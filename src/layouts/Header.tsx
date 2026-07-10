@@ -13,12 +13,12 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex my-4">
-      <div className="flex w-full max-w-6xl mx-auto justify-between px-4">
+    <header className="my-4 flex">
+      <div className="flex w-full justify-between border-b px-4 pb-4">
         <a href="#">vajutar</a>
 
         {/* Desktop */}
-        <nav className="hidden sm:flex space-x-8">
+        <nav className="hidden space-x-8 sm:flex">
           {NAV_LINKS.map((link) => (
             <a key={link.href} href={link.href}>
               {link.label}
@@ -33,7 +33,7 @@ function Header() {
 
       {/* Mobile */}
       {isMenuOpen && (
-        <nav className="bg-slate-100 sm:hidden fixed inset-0 flex flex-col items-center justify-center z-50">
+        <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-slate-100 sm:hidden">
           <button
             className="absolute top-4 right-4"
             onClick={() => setIsMenuOpen(false)}

@@ -8,11 +8,11 @@ interface MainLayoutProps {
 
 function MainLayout({ children }: MainLayoutProps) {
   return (
-    <>
+    <div className="mx-auto max-w-6xl">
       <Header />
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 }
 
