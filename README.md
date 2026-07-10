@@ -9,11 +9,11 @@
 ## TODO
 
 - [ ] Layout
-  - [ ] Header (navigation menu)
-  - [ ] MainLayout (wrapper handling header, footer, and theme)
+  - [x] Header (navigation menu)
+  - [x] MainLayout (wrapper handling header, footer, and theme)
   - [ ] Footer (copyright and social links)
 - [ ] Section
-  - [ ] Hero
+  - [x] Hero
   - [ ] About
   - [ ] Experience
   - [ ] Skills
