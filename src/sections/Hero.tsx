@@ -2,9 +2,9 @@ import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section className="mx-4">
-      <div className="mt-16 text-2xl">
-        Hello, I'm <br />
+    <section className="my-16">
+      <div className="text-2xl">
+        Hello, I am <br />
         <span className="text-6xl font-bold">Vonn Adrian Jutar</span>
       </div>
       <TypeAnimation
