@@ -1,12 +1,10 @@
 # My Portfolio Website (React + Typescript + TailwindCSS + Vite)
 
-## In progress
+## TODO
 
 - [x] Add interfaces in types folder
-- [ ] Fill out info in data folder
+- [x] Fill out info in data folder
 - [ ] Gather static assets (project screenshots, resume pdf)
-
-## TODO
 
 - [ ] Layout
   - [x] Header (navigation menu)
@@ -14,7 +12,7 @@
   - [ ] Footer (copyright and social links)
 - [ ] Section
   - [x] Hero
-  - [ ] About
+  - [x] About
   - [ ] Experience
   - [ ] Skills
   - [ ] Projects
@@ -24,4 +22,5 @@
   - [ ] Add smooth scrolling
   - [ ] Verify mobile responsiveness
   - [ ] Run a local build test
+  - [x] Containerize with docker
 - [ ] Deploy
