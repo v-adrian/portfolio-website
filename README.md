@@ -19,8 +19,9 @@
   - [ ] Education
 - [ ] Polish
   - [ ] Update browser tab title and favicon
-  - [ ] Add smooth scrolling
+  - [x] Add smooth scrolling
   - [ ] Verify mobile responsiveness
   - [ ] Run a local build test
-  - [x] Containerize with docker
-- [ ] Deploy
+  - [x] Experiment with docker containerization
+- [x] Deploy
+  - [x] Setup Github actions for CI/CD
