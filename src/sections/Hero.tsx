@@ -2,10 +2,10 @@ import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section className="my-16">
+    <section className="min-h-dvh flex flex-col justify-center">
       <div className="text-2xl">
         Hello, I am <br />
-        <span className="text-6xl font-bold">Vonn Adrian Jutar</span>
+        <h1 className="text-6xl font-bold">Vonn Adrian Jutar</h1>
       </div>
       <TypeAnimation
         sequence={[

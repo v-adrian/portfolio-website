@@ -4,8 +4,8 @@ import { LuMenu, LuX } from "react-icons/lu";
 const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
 ] as const;
 
@@ -14,8 +14,8 @@ function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 flex bg-white/80 py-4 backdrop-blur-sm">
-        <div className="flex w-full justify-between px-4">
+      <header className="fixed inset-x-0 top-0 z-50 flex  bg-white/90 backdrop-blur-sm py-4">
+        <div className="flex w-full justify-between mx-auto max-w-6xl px-4">
           <a className="font-medium" href="#">
             vajutar
           </a>
@@ -48,6 +48,7 @@ function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setIsMenuOpen(false)}
+              className="text-2xl font-medium py-2 uppercase"
             >
               {link.label}
             </a>
