@@ -1,8 +1,8 @@
 function About() {
   return (
     <section id="about" className="grid grid-cols-1 gap-8 sm:grid-cols-[12rem_1fr]">
-      <h2 className="text-lg font-bold">ABOUT</h2>
-      <div className="space-y-4 text-xl">
+      <h2 className="font-heading text-lg font-bold">About</h2>
+      <div className="space-y-4 text-lg">
         <p>
           I specialize in full-stack development: React and TypeScript on the
           frontend, Python and Django on the backend. Built real applications

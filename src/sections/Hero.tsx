@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
     <section className="min-h-dvh flex flex-col justify-center">
-      <div className="text-2xl">
+      <div className="font-heading text-2xl">
         Hello, I am <br />
         <h1 className="text-6xl font-bold">Vonn Adrian Jutar</h1>
       </div>
@@ -17,7 +17,7 @@ function Hero() {
           1000,
         ]}
         repeat={Infinity}
-        className="text-4xl font-semibold"
+        className="font-heading text-4xl font-semibold"
       />
     </section>
   );

@@ -10,7 +10,7 @@ function MainLayout({ children }: MainLayoutProps) {
   return (
     <div className="mx-auto max-w-6xl">
       <Header />
-      <main className="px-4 space-y-16">{children}</main>
+      <main className="px-4 space-y-32">{children}</main>
       <Footer />
     </div>
   );

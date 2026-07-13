@@ -14,9 +14,9 @@ function Header() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 flex  bg-white/90 backdrop-blur-sm py-4">
-        <div className="flex w-full justify-between mx-auto max-w-6xl px-4">
-          <a className="font-medium" href="#">
+      <header className="fixed inset-x-0 top-0 z-50 flex bg-white/80 py-4 backdrop-blur-sm border-b">
+        <div className="mx-auto flex w-full max-w-6xl justify-between px-4">
+          <a className="font-heading font-bold" href="#">
             vajutar
           </a>
 
@@ -36,7 +36,7 @@ function Header() {
       </header>
       {/* Mobile */}
       {isMenuOpen && (
-        <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-slate-100 sm:hidden">
+        <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white sm:hidden">
           <button
             className="absolute top-4 right-4"
             onClick={() => setIsMenuOpen(false)}
@@ -48,7 +48,7 @@ function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setIsMenuOpen(false)}
-              className="text-2xl font-medium py-2 uppercase"
+              className="py-2 text-2xl font-bold font-heading"
             >
               {link.label}
             </a>
