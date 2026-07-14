@@ -16,7 +16,7 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/v-adrian/portfolio-website",
     liveUrl: "https://v-adrian.github.io/portfolio-website/",
-    imageUrl: "./images/portfolio-website.png",
+    imageUrl: "images/portfolio-website.png",
   },
   {
     id: "proj-2",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
       "Leaflet",
     ],
     githubUrl: "https://github.com/v-adrian/THESIS-24-CS-003",
-    imageUrl: "./images/crime-hotspot.png",
+    imageUrl: "images/crime-hotspot.png",
   },
   {
     id: "proj-3",
@@ -51,6 +51,6 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/Sentinel-Eyes/Sentinel",
     liveUrl: "https://sentinel-eyes.github.io/Sentinel-Client/",
-    imageUrl: "./images/sentinel.png",
+    imageUrl: "images/sentinel.png",
   },
 ];

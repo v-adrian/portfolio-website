@@ -8,6 +8,8 @@ interface CardProps {
   project: Project;
 }
 
+const BASE = import.meta.env.BASE_URL
+
 function Card({ project }: CardProps) {
   return (
     <div className="flex flex-col gap-4 overflow-visible border p-4">
@@ -32,7 +34,7 @@ function Card({ project }: CardProps) {
           )}
           {project.imageUrl && (
             <a
-              href={project.imageUrl}
+              href={`${BASE}${project.imageUrl}`}
               target="_blank"
               rel="noopener noreferrer"
             >
