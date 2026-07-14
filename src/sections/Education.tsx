@@ -15,7 +15,7 @@ function Education() {
                 <h3 className="text-lg font-semibold">{item.degree}</h3>
                 <p className="text-md italic">{item.institution}</p>
               </div>
-              <p className="text-sm">{item.duration}</p>
+              <p className="text-sm text-right">{item.duration}</p>
             </div>
           </div>
         ))}

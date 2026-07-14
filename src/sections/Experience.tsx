@@ -15,7 +15,7 @@ function Experience() {
                 <h3 className="text-lg font-semibold">{item.role}</h3>
                 <p className="text-md italic">{item.company}</p>
               </div>
-              <p className="text-sm">{item.duration}</p>
+              <p className="text-sm text-right">{item.duration}</p>
             </div>
             <ul>
               {item.description.map((desc, i) => (
