@@ -10,18 +10,19 @@
   - [x] Header (navigation menu)
   - [x] MainLayout (wrapper handling header, footer, and theme)
   - [ ] Footer (copyright and social links)
-- [ ] Section
+- [x] Section
   - [x] Hero
   - [x] About
-  - [ ] Experience
-  - [ ] Skills
-  - [ ] Projects
-  - [ ] Education
+  - [x] Experience
+  - [x] Skills
+  - [x] Projects
+  - [x] Education
 - [ ] Polish
   - [ ] Update browser tab title and favicon
   - [x] Add smooth scrolling
   - [ ] Verify mobile responsiveness
-  - [ ] Run a local build test
   - [x] Experiment with docker containerization
+  - [ ]Add missing imageUrl to second project
+  - [ ]Add freelance experience description
 - [x] Deploy
   - [x] Setup Github actions for CI/CD
