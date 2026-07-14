@@ -23,8 +23,8 @@
   - [x] Add smooth scrolling
   - [ ] Verify mobile responsiveness
   - [x] Experiment with docker containerization
-  - [ ] Add missing imageUrl to second project
-  - [ ] Add freelance experience description
+  - [x] Add missing imageUrl to second project
+  - [x] Add freelance experience description
   - [ ] Update resume
   - [ ] Add animations
   - [ ] Add colors, hover effects, etc.
