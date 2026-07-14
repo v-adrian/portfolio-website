@@ -24,6 +24,7 @@ function Card({ project }: CardProps) {
         <div className="mt-auto flex items-center justify-end gap-2">
           {project.liveUrl && (
             <a
+              aria-label={project.title + ' live site'}
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -34,6 +35,7 @@ function Card({ project }: CardProps) {
           )}
           {project.imageUrl && (
             <a
+              aria-label={project.title + ' screenshot'}
               href={`${BASE}${project.imageUrl}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -43,6 +45,7 @@ function Card({ project }: CardProps) {
           )}
           {project.githubUrl && (
             <a
+              aria-label={project.title + ' source'}
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"

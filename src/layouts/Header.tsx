@@ -30,7 +30,7 @@ function Header() {
             ))}
           </nav>
 
-          <button className="sm:hidden" onClick={() => setIsMenuOpen(true)}>
+          <button aria-label="Open menu" className="sm:hidden" onClick={() => setIsMenuOpen(true)}>
             <LuMenu size={24} />
           </button>
         </div>
@@ -39,6 +39,7 @@ function Header() {
       {isMenuOpen && (
         <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white sm:hidden">
           <button
+            aria-label="Close menu"
             className="absolute top-4 right-4"
             onClick={() => setIsMenuOpen(false)}
           >
