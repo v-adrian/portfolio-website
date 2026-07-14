@@ -22,46 +22,16 @@ import {
 
 export const skills: Skill[] = [
   {
+    id: "skill-17",
+    name: "TypeScript",
+    category: "Frontend",
+    icon: SiTypescript,
+  },
+  {
     id: "skill-1",
     name: "JavaScript",
     category: "Frontend",
     icon: SiJavascript,
-  },
-  {
-    id: "skill-2",
-    name: "Python",
-    category: "Backend",
-    icon: SiPython,
-  },
-  {
-    id: "skill-3",
-    name: "Java",
-    category: "Backend",
-    icon: FaJava,
-  },
-  {
-    id: "skill-4",
-    name: "HTML",
-    category: "Frontend",
-    icon: SiHtml5,
-  },
-  {
-    id: "skill-5",
-    name: "CSS",
-    category: "Frontend",
-    icon: FaCss3,
-  },
-  {
-    id: "skill-6",
-    name: "MySQL",
-    category: "Databases",
-    icon: SiMysql,
-  },
-  {
-    id: "skill-7",
-    name: "Django",
-    category: "Backend",
-    icon: SiDjango,
   },
   {
     id: "skill-8",
@@ -76,10 +46,58 @@ export const skills: Skill[] = [
     icon: SiTailwindcss,
   },
   {
+    id: "skill-4",
+    name: "HTML",
+    category: "Frontend",
+    icon: SiHtml5,
+  },
+  {
+    id: "skill-5",
+    name: "CSS",
+    category: "Frontend",
+    icon: FaCss3,
+  },
+  {
     id: "skill-10",
     name: "Svelte",
     category: "Frontend",
     icon: SiSvelte,
+  },
+  {
+    id: "skill-2",
+    name: "Python",
+    category: "Backend",
+    icon: SiPython,
+  },
+  {
+    id: "skill-7",
+    name: "Django",
+    category: "Backend",
+    icon: SiDjango,
+  },
+  {
+    id: "skill-3",
+    name: "Java",
+    category: "Backend",
+    icon: FaJava,
+  },
+  {
+    id: "skill-6",
+    name: "MySQL",
+    category: "Databases",
+    icon: SiMysql,
+  },
+  {
+    id: "skill-18",
+    name: "SQLite",
+    category: "Databases",
+    icon: SiSqlite,
+  },
+  {
+    id: "skill-19",
+    name: "MariaDB",
+    category: "Databases",
+    icon: SiMariadb,
   },
   {
     id: "skill-11",
@@ -116,23 +134,5 @@ export const skills: Skill[] = [
     name: "GitHub Actions",
     category: "DevOps & Tools",
     icon: SiGithubactions,
-  },
-  {
-    id: "skill-17",
-    name: "TypeScript",
-    category: "Frontend",
-    icon: SiTypescript,
-  },
-  {
-    id: "skill-18",
-    name: "SQLite",
-    category: "Databases",
-    icon: SiSqlite,
-  },
-  {
-    id: "skill-19",
-    name: "MariaDB",
-    category: "Databases",
-    icon: SiMariadb,
   },
 ];
