@@ -14,14 +14,14 @@ function Header() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 flex bg-white/80 py-4 backdrop-blur-sm border-b">
+      <header className="fixed inset-x-0 top-0 z-50 flex border-b bg-white/80 py-4 backdrop-blur-sm">
         <div className="mx-auto flex w-full max-w-6xl justify-between px-4">
           <a className="font-heading font-bold" href="#">
             vajutar
           </a>
 
           {/* Desktop */}
-          <nav className="hidden space-x-8 sm:flex">
+          <nav className="hidden space-x-8 sm:flex font-heading font-bold">
             {NAV_LINKS.map((link) => (
               <a key={link.href} href={link.href}>
                 {link.label}
@@ -48,7 +48,7 @@ function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setIsMenuOpen(false)}
-              className="py-2 text-2xl font-bold font-heading"
+              className="font-heading py-2 text-2xl font-bold"
             >
               {link.label}
             </a>
