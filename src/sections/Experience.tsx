@@ -7,10 +7,10 @@ function Experience() {
       className="grid grid-cols-1 gap-8 sm:grid-cols-[12rem_1fr]"
     >
       <h2 className="font-heading text-lg font-bold">Experience</h2>
-      <div className="divide-y space-y-8">
+      <div className="space-y-8 divide-y">
         {experience.map((item) => (
-          <div className="pb-8 space-y-4">
-            <div key={item.id} className="flex justify-between">
+          <div key={item.id} className="space-y-4 pb-8">
+            <div className="flex justify-between">
               <div>
                 <h3 className="text-lg font-semibold">{item.role}</h3>
                 <p className="text-md italic">{item.company}</p>
