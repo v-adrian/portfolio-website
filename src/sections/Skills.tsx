@@ -1,5 +1,6 @@
 import { skills } from "@/data/skills";
 import type { SkillCategory } from "@/types";
+import Chip from "@/components/Chip";
 
 const CATEGORIES: SkillCategory[] = [
   "Frontend",
@@ -25,13 +26,9 @@ function Skills() {
               <h3 className="mb-3 text-lg font-semibold">{category}</h3>
               <div className="flex flex-wrap gap-3">
                 {items.map((skill) => (
-                  <span
-                    key={skill.id}
-                    className="inline-flex items-center gap-2 border px-3 py-1.5"
-                  >
-                    <skill.icon className="text-lg" />
+                  <Chip key={skill.id} Icon={skill.icon}>
                     {skill.name}
-                  </span>
+                  </Chip>
                 ))}
               </div>
             </div>
