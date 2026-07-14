@@ -1,9 +1,16 @@
 import type { IconType } from "react-icons";
 
+export type SkillCategory =
+  | "Frontend"
+  | "Backend"
+  | "Databases"
+  | "AI & Machine Learning"
+  | "DevOps & Tools";
+
 export interface Skill {
   id: string;
   name: string;
-  type: string;
+  category: SkillCategory;
   icon: IconType;
 }
 
