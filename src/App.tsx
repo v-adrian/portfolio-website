@@ -5,6 +5,7 @@ import Experience from "@/sections/Experience"
 import Projects from "@/sections/Projects"
 import Skills from "@/sections/Skills"
 import Education from "@/sections/Education"
+import Contact from "@/sections/Contact"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Projects />
       <Education />
+      <Contact />
     </MainLayout>
   )
 }

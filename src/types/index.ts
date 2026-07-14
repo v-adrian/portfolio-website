@@ -41,3 +41,10 @@ export interface Education {
   duration: string;
   details?: string[];
 }
+
+export interface Contact {
+  id: string;
+  name: string;
+  link: string;
+  icon: IconType;
+}
