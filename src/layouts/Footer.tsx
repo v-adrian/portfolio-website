@@ -1,6 +1,8 @@
 function Footer() {
   return (
-    <footer></footer>
+    <footer className="border-t py-4">
+      <p className="text-center">© 2026</p>
+    </footer>
   )
 }
 
